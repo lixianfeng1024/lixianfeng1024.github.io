@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>从0到1，搭建Hexo博客 | 李先锋的个人博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="从0到1，教你在Windows上搭建Hexo博客">
+<meta property="og:type" content="article">
+<meta property="og:title" content="从0到1，搭建Hexo博客">
+<meta property="og:url" content="https://yourwebsite.com/2019/11/19/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:site_name" content="李先锋的个人博客">
+<meta property="og:description" content="从0到1，教你在Windows上搭建Hexo博客">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://yourwebsite.com/2019/11/19/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/gitversion.png">
+<meta property="og:image" content="https://yourwebsite.com/2019/11/19/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/hexoversion.png">
+<meta property="og:image" content="https://yourwebsite.com/2019/11/19/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/hexoinit.png">
+<meta property="og:image" content="https://yourwebsite.com/2019/11/19/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/hexosblog.png">
+<meta property="og:image" content="https://yourwebsite.com/2019/11/19/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/hexochrome.png">
+<meta property="article:published_time" content="2019-11-19T05:24:23.000Z">
+<meta property="article:modified_time" content="2020-04-22T06:09:09.758Z">
+<meta property="article:author" content="Xianfeng">
+<meta property="article:tag" content="Hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://yourwebsite.com/2019/11/19/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/gitversion.png">
+  
+    <link rel="alternate" href="/atom.xml" title="李先锋的个人博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.1.1"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">李先锋的个人博客</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://yourwebsite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-从0到1，搭建Hexo博客" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/11/19/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/" class="article-date">
+  <time datetime="2019-11-19T05:24:23.000Z" itemprop="datePublished">2019-11-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      从0到1，搭建Hexo博客
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>从0到1，教你在Windows上搭建Hexo博客</p>
+<a id="more"></a>
+
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>1.安装 Git Bash</p>
+<ul>
+<li>下载地址 <a target="_blank" rel="noopener" href="https://gitforwindows.org/">GitBash</a></li>
+<li>安装步骤 一路next</li>
+<li>安装完成，打开Git Bash，输入<kbd>git version</kbd>查看版本<br><img src="%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/gitversion.png" alt="Git2.16.2"></li>
+</ul>
+<p>2.安装 Node JS</p>
+<p>   Hexo是基于Node JS的静态博客 ，后面安装Hexo的插件要用到npm命令。</p>
+<ul>
+<li>下载地址(LTS版本) <a target="_blank" rel="noopener" href="https://nodejs.org/en/">Node JS</a></li>
+<li>安装步骤：点击msi文件，在Custom Setup这个界面勾选<kbd>Add to PATH</kbd></li>
+<li>安装完成，打开Git Bash，输入<kbd>node -v</kbd>查看版本</li>
+</ul>
+<p>3.安装 Hexo</p>
+<p>以上是搭建Hexo的基础，下面开始创建一个属于自己的hexo博客</p>
+<ul>
+<li>先创建一个文件，用于存放自己的blog文件，在该文件夹下，右键打开Git Bash</li>
+<li>安装hexo命令：<kbd>npm i -g hexo</kbd></li>
+<li>安装完成，查看hexo版本，输入<kbd>hexo -v</kbd><br><img src="%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/hexoversion.png" alt="Hexo"></li>
+<li>初始化命令 <kbd>hexo init</kbd>，等待片刻之后，在blog文件夹下可以看到以下文件<br><img src="%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/hexoinit.png" alt="hexo blog"></li>
+<li>各个文件夹的作用：<ul>
+<li>node_modules: 依赖包</li>
+<li>public：存放生成的页面(要发布项目才有)</li>
+<li>scaffolds：命令生成文章的模版</li>
+<li>source：用命令创建的各种文章</li>
+<li>themes：下载的主题</li>
+<li>_config.yml：整个博客的配置信息</li>
+<li>db.json：source解析所得到的</li>
+<li>package.json：项目所需模块项目的配置信息</li>
+</ul>
+</li>
+</ul>
+<h2 id="本地调试Hexo博客"><a href="#本地调试Hexo博客" class="headerlink" title="本地调试Hexo博客"></a>本地调试Hexo博客</h2><ol>
+<li>在blog文件夹目录下，右键打开Git Bash，输入<kbd>hexo s</kbd><br><img src="%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/hexosblog.png" alt="发布在本地查看"></li>
+<li>在本地浏览器打开<kbd>localhost:4000</kbd>查看博客<br><img src="%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/hexochrome.png" alt="hexo在浏览器中查看"></li>
+<li>hexo相关命令<ul>
+<li><kbd>hexo s</kbd>：启动本地服务器，用于预览<ul>
+<li>hexo s是hexo server的缩写</li>
+<li>预览同时可以对文章、主题修改，刷新页面即可</li>
+<li>对hexo根目录的_config.yml修改，需要重启服务器</li>
+</ul>
+</li>
+<li><kbd>hexo clean</kbd>：清除缓存文件<ul>
+<li>重启时需要清除缓存</li>
+</ul>
+</li>
+<li><kbd>hexo d</kbd>：生成静态网站，部署到github仓库<ul>
+<li>hexo d是hexo deploy的缩写</li>
+</ul>
+</li>
+<li><kbd>hexo g</kbd>：生成静态文件到public文件夹<ul>
+<li>hexo g是hexo generate的缩写</li>
+<li>便于查看网站生成的静态文件或手动部署网站</li>
+</ul>
+</li>
+<li><kbd>hexo new "My First Blog"</kbd>：新建一篇文章<ul>
+<li>生成的文章在根目录\source_posts里面</li>
+</ul>
+</li>
+<li><kbd>hexo new page aboutme</kbd>：新建一个标题为aboutme的页面<ul>
+<li>页面不会出现在文章列表和归档中，也不支持设置分类和标签</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>个人的本地Hexo博客就搭建完成了，后面会介绍如何发布到Github上面，之后我们就可以在互联网上通过浏览器访问到自己的博客。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://yourwebsite.com/2019/11/19/%E4%BB%8E0%E5%88%B01%EF%BC%8C%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/" data-id="ckesawt9400084ofphyeehque" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/12/06/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B9%8B%E4%BA%8B%E7%89%A9%E5%A4%84%E7%90%86/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          数据库之事物处理
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/11/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">我的第一篇博客</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mybatis/" rel="tag">Mybatis</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Spring/" rel="tag">Spring</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" rel="tag">数据库</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/" rel="tag">设计模式 单例模式</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/Mybatis/" style="font-size: 20px;">Mybatis</a> <a href="/tags/Spring/" style="font-size: 15px;">Spring</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 10px;">数据库</a> <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/" style="font-size: 10px;">设计模式 单例模式</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">December 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">November 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/09/01/%E2%80%9C%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%88%9B%E5%BB%BA%E5%9E%8B-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/">“设计模式-创建型-单例模式</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/21/Spring%E4%B8%AD%E7%9A%84AOP%E5%92%8C%E5%9F%BA%E4%BA%8EXML%E4%BB%A5%E5%8F%8A%E6%B3%A8%E8%A7%A3%E7%9A%84AOP%E9%85%8D%E7%BD%AE/">Spring中的AOP和基于XML以及注解的AOP配置</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/10/Spring%E4%B8%AD%E5%9F%BA%E4%BA%8E%E6%B3%A8%E8%A7%A3%E7%9A%84IOC/">Spring中基于注解的IOC</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/01/Spring%E4%B8%AD%E5%9F%BA%E4%BA%8EXml%E7%9A%84IOC/">Spring中基于Xml的IOC</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/22/Mybatis%E8%BF%9E%E6%8E%A5%E6%B1%A0/">Mybatis连接池</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 Xianfeng<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
